@@ -2,6 +2,8 @@
     border: 10px solid black;
     width: 500px;
     display: flex;
+    flex-direction: column;
+    height: 300px;
 }
 
 .flex__item {
