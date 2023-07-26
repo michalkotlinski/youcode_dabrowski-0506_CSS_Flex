@@ -2,8 +2,8 @@
     border: 10px solid black;
     width: 500px;
     display: flex;
-    flex-direction: column;
     height: 300px;
+    justify-content: center;
 }
 
 .flex__item {
@@ -11,4 +11,8 @@
     background: teal;
     color: white;
     margin: 10px;
+}
+
+.flex__item--last {
+    order: -1;
 }
